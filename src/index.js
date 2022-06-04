@@ -74,6 +74,6 @@
    export const randomizer = (from, to) => {
    let min = Math.ceil(from);
    let max = Math.floor(to);
-   return Math.floor(Math.random() * (max - min)) + min;
+   return Math.floor(Math.random() * (max - min + 1)) + min;
    };
 
