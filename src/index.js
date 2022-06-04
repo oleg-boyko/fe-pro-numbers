@@ -55,6 +55,7 @@
   };
   };
 
+
   // вариант  короткий,но ненаглядный
   //export const getFlooroCeil = (number) => {
   //let intVarible = Number.parseInt(number,10); // or: let intVarible = ~~(number);
