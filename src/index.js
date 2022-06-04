@@ -56,10 +56,10 @@
   };
 
   // вариант  короткий,но ненаглядный
-  export const getFixedValue = (number) => {
-  let intVarible = Number.parseInt(number,10); // or: let intVarible = ~~(number);
-  return(intVarible % 2 === 0) ? Math.floor(number) : Math.ceil(number);
-  };
+  //export const getFlooroCeil = (number) => {
+  //let intVarible = Number.parseInt(number,10); // or: let intVarible = ~~(number);
+  //return(intVarible % 2 === 0) ? Math.floor(number) : Math.ceil(number);
+  //};
 
 
 /**
