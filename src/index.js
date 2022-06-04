@@ -70,9 +70,9 @@
  * @param {number} to
  * @returns {number}
  */
-  export const randomizer = (from, to) => {
-  min = Math.ceil(from);
-  max = Math.floor(to);
-  return Math.floor(Math.random() * (max - min)) + min;
-  };
+   export const randomizer = (from, to) => {
+   let min = Math.ceil(from);
+   let max = Math.floor(to);
+   return Math.floor(Math.random() * (max - min)) + min;
+   };
 
